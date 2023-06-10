@@ -1,0 +1,14 @@
+.link-container {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 3em;
+    a {
+      text-decoration: none;
+      color: var(--text-light-color);
+      &.active {
+        color: var(--text-bold-color);
+        font-family: sagoeBold;
+      }
+    }
+  }

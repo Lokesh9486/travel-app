@@ -1,0 +1,36 @@
+.recommend-card{
+    .card-img{
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        border-radius: 6px;
+    }
+    .recommend-card-topic{
+        margin-block: 1%;
+    }
+    .recommend-card-dis{
+        margin-block: 1%;
+        font-size:var(--fs19);
+    }
+    .footer-section{
+        display: flex;
+        justify-content: space-between;
+        margin-block: 1em;
+        .icon-section{
+            .img-con{
+                display: flex;
+                gap: .5em;
+                img{
+                    width: 1em;
+                }
+            }
+        }
+        h3{
+            margin-block: 1%;
+            font-size: var(--fs20);
+        }
+        p{
+            margin-block: 1%;
+            font-size: var(--fs19);
+        }
+    }
+}
